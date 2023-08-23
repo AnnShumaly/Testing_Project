@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Login_main_div {
+  background-color: rgb(245, 217, 222);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.login_heading {
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+/* .login_btn{
+    width: 35%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color:rgb(245, 217, 222) ;
+    border-radius: 8px;
+    font-size: 22px;
+    margin-top: 30px;
+    transition: 0.4s;
+    font-weight: 700;
+}
+.login_btn:hover{
+    background-color: gray;
+    color: #fff;
+    
+} */
+.login_btn {
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #e74b7e;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  transition: 0.4s;
+  background-color:rgb(245, 217, 222) ;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+
+}
+
+.login_btn:hover {
+  background-color:#e74b7e ;
+  color: #fff;
+}
+.login_form {
+  height: 350px;
+  width: 450px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #dfc0c8;
+  box-shadow: 13px 11px 17px -4px rgba(152, 150, 150, 0.75);
+-webkit-box-shadow: 13px 11px 17px -4px (152, 150, 150, 0.75);
+-moz-box-shadow: 13px 11px 17px -4px(152, 150, 150, 0.75);
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_email{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+/* .login_email_label{
+    width: 100%;
+    font-weight: 700;
+} */
+.login_password_label{
+    width: 80%;
+    font-weight: 700;
+    margin-top: 15px;
+    position: relative;
+}
+.login_password{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-top: 8px;
+}
+.email_error{
+    color: red;
+    font-size: 15px;
+    margin-top: -15px;
+    text-transform: capitalize;
+}
+.password_error{
+    color: red;
+    font-size: 15px;
+    margin-top: -3px;
+    text-transform: capitalize;
+}
+.createacctext{
+  margin-top: 15px;
+}
+.creatacc{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.forgot_pass_text{
+  width:150px;
+  margin-top: -15px;
+  font-size: 14px;
+  margin-left: -10px;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s;
+  color: blue;
+  text-decoration-color: blue;
+}
+.input_div{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.input_label{
+  margin-right: 300px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.input_label_password{
+  margin-right: 300px;
+  margin-left: 5px;
+  margin-bottom: -3px;
+  font-weight: 700;
+}
+.showPass{
+  position: absolute;
+  font-size: 14px;
+  right: 8px;
+  top: 38px;
+  cursor: pointer;
+}
