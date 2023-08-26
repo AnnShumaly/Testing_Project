@@ -104,8 +104,10 @@
 .email_error{
     color: red;
     font-size: 15px;
-    margin-top: -15px;
+    margin-top: -40px;
     text-transform: capitalize;
+    margin-bottom: 20px;
+
 }
 .password_error{
     color: red;
@@ -123,7 +125,7 @@
 }
 .forgot_pass_text{
   width:150px;
-  margin-top: -15px;
+  margin-top: 10px;
   font-size: 14px;
   margin-left: -10px;
   text-decoration: underline;
@@ -154,7 +156,7 @@
 .showPass{
   position: absolute;
   font-size: 14px;
-  right: 8px;
-  top: 38px;
+  right: 10px;
+  top: 10px;
   cursor: pointer;
 }
