@@ -18,7 +18,7 @@ const Login = () => {
       setError(true);
       return;
     }
-    // navigate("/homepage")
+    navigate("/homepage");
   };
   const handleClickShowPassword = () => {
     setShowPass(!showPass);

@@ -1,0 +1,10 @@
+.section{
+    background-image: url(../../images/sectionImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    background-color:#e74b7e ;
+    height: 93vh;
+    width: 100%;
+}

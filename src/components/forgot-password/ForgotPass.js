@@ -40,7 +40,6 @@ const ForgotPass = () => {
           ) : (
             ""
           )}
-
           <button className="login_btn" onClick={handlesubmit}>
             Submit
           </button>
