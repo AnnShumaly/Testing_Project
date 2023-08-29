@@ -71,7 +71,7 @@ const Signup = () => {
             ""
           )}
           {!validName && name && (
-            <p className="error_msg">At least one Capital and number</p>
+            <p className="error_msg">Provide correct name</p>
           )}
           <div className="input_div">
             <TextField
